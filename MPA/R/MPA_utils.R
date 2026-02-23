@@ -13,7 +13,7 @@ read_expression_data <- function(file_name){
   expr_data <- read.table(file = file_name, header = T, sep = "\t")
   return(expr_data)
 }
-
+# Change for attendance RICS
 # test_expr_file.txt:
 # metab cond  ctrl
 # m1  10  11
