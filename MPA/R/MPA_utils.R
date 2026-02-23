@@ -10,7 +10,7 @@ library(utils)
 #' @return data.frame with the expression data
 #' @export
 read_expression_data <- function(file_name){
-  expr_data <- read.table(file = file_name, header = T, sep = "\t")
+  expr_data <- data.table::fread(file = file_name, header = T, sep = "\t", data.table = F)
   return(expr_data)
 }
 
