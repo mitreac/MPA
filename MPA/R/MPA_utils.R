@@ -62,7 +62,7 @@ compute_reaction_score <- function(expr_data, reaction_data){
 #' @export
 compute_pathway_score <- function(expr_data, pathway_data){
   pert_score <- 0
-  # pert_score <- expr_data + pathway_data
+  #pert_score <- expr_data + pathway_data
   # compute perturbation score using expression data and pathway data
   return(pert_score)
 }
