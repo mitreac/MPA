@@ -1,22 +1,30 @@
-Package: MPA
-Type: Package
-Title: Metabolic Pathway Analysis
-Version: 0.1.0
-Author: Cristina Mitrea
-Maintainer: Cristina Mitrea <mitrea@umich.edu>
-Description: Metabolic pathway analysis. 
-    Input - High-throughput metabolite levels for condition and control samples and Reactome pathways    
-    Output - Ranked list of Reactome pathways that perturbed in the condition under study - the rank is based on a score or p-value that results from evaluating the pathway disruption given the data and the pathway information from the Reactome database
-License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.3.2
-Suggests: 
-    knitr,
-    rmarkdown,
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Imports: 
-    dplyr,
-    utils
-VignetteBuilder: knitr
+## Package: MPA
+#### Type: Package
+#### Title: Metabolic Pathway Analysis
+#### Version: 0.1.0
+#### Author: Cristina Mitrea
+#### Maintainer: Cristina Mitrea <mitrea@umich.edu>
+____
+
+**Description:** Metabolic pathway analysis. 
+**Input** - High-throughput metabolite levels for condition and control samples and Reactome pathways    
+
+**Output** - Ranked list of Reactome pathways that perturbed in the condition under study - the rank is based on a score or p-value that results from evaluating the pathway disruption given the data and the pathway information from the Reactome database
+_____
+**License**: MIT + file LICENSE
+
+**Encoding**: UTF-8
+
+**LazyData**: true
+
+**RoxygenNote**: 7.3.2
+
+**Suggests:**
+* knitr,
+* rmarkdown,
+* testthat (>= 3.0.0)
+* Config/testthat/edition: 3
+
+**Imports:** 
+`dplyr`, `utils`
+**VignetteBuilder:** `knitr`
