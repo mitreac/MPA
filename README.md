@@ -9,7 +9,7 @@
 This runs a simple MPA analysis example.
 
 - have the docker engine running
-- have the MPA_docker folder on you computer
+- have the MPA_docker folder on your computer
 - build the image (run the following command in a terminal in the MPA_docker folder):
 ```
 docker build --rm -t mpa_image .
