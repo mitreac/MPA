@@ -3,3 +3,17 @@
 **Input:** High-throughput metabolite levels for condition and control samples
 
 **Output:** Ranked list of Reactome pathways that perturbed in the condition under study – the rank is based on a score or p-value that results from evaluating the pathway disruption given the data and the pathway information from the Reactome database
+
+## To build and run the MPA docker container with a basic example os MPA use follow the steps below
+
+- have the docker engine running
+- have the MPA_docker folder on you computer
+- build the image (run the following command in a terminal in the MPA_docker folder):
+```
+docker build --rm -t mpa_image .
+```
+- run the container:
+```
+docker run --rm mpa_image
+```
+  
